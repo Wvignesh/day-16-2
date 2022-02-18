@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+  <div class="container">
+    <div class="survey-form">
+        <label for="Name"  >Name<span class="required">*</span></label> <br>
+        <input type="text" required>  <input type="text"  > <br><sup>first</sup>  <sup id="la">last</sup>
+     
+        <br> <br>
+        <label for="Email">Email<span class="required">*</span></label> <br>
+        <input type="text"   size="46">
+        <p>Your Experience <span class="required">*</span></p> <div id="star"> <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>  </div>
+    
+     <p>overall,how would you rate your Experience with us?</p>
+     <h4>How satisfied are you with<span class="required">*</span></h4>
+     
+     <table id="table1" >
+         <tr>
+             <td></td>
+             <td>very Unsatisfied</td>
+             <td>Unsatisfied</td>
+             <td>Neutral</td>
+             <td>satisfied</td>
+             <td>Very Satisfied</td>
+         </tr>
+         <tr id="purchase">
+             <td>Purchase</td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+         </tr>
+         <tr>
+             <td>Service</td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+         </tr>
+         <tr id="col">
+             <td >Company Overall</td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+         </tr>
+     </table>
+     <h4>How likely are you to <span class="required">*</span></h4>
+     <table id="table2">
+     
+         <td></td>
+         <td>very Unlikely</td>
+         <td>Unlikely</td>
+         <td>Neutral</td>
+         <td> Likely</td>
+         <td>Very Likely</td>
+         <tr id="buy">
+             <td> Buy from us again</td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+         </tr>
+         <tr>
+             <td> Recommended our<br>product to others</td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+         </tr>
+         <tr id="rco">
+             <td>Recommended our<br> company to others</td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+             <td><input type="radio"></td>
+         </tr>
+     
+     </table>
+     <h4>Additional comments or suggestions</h4>
+     <textarea rows="4" cols="68"></textarea>
+     <br> <br>
+     <input type="submit" id="button">
+      </div> 
+  </div>
+
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
+

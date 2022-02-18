@@ -1,0 +1,50 @@
+.survey-form{
+
+    border:1px solid rgb(207, 199, 199);
+    border-width: 50%;
+    margin: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom:5PX;
+    font-family: sans-serif;
+}
+#star{
+
+    color:orange;
+}
+#table1,#table2{
+
+    width: 70%;
+    text-align: center;
+    border:0px solid transparent;
+}
+
+#purchase,#col,#buy,#rco{
+
+   background-color:rgba(235, 228, 228, 0.726);
+   
+}
+
+#la{
+    padding-left: 155px;
+}
+ 
+.required{
+
+    color:red;
+}
+#button{
+
+    width:65px;
+    height:40px;
+}
+
+@media only screen and (max-width:800px) {
+    
+    .survey-form{
+
+        width: 100px;
+        padding: 0px;
+        margin: 0;
+    }
+}
